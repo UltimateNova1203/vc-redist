@@ -28,11 +28,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="bin\" />
-    <Folder Include="bin\Debug\" />
     <Folder Include="bin\x64\" />
     <Folder Include="bin\x86\" />
-    <Folder Include="obj\" />
-    <Folder Include="obj\Debug\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="bin\x64\jsharp.exe" />
@@ -58,20 +55,8 @@
     <Compile Include="bin\x86\vc2015.exe" />
     <Compile Include="bin\x86\vstor2010.exe" />
     <Compile Include="LICENSE" />
-    <Compile Include="obj\dotNET35.ps1" />
-    <Compile Include="obj\fsharp.ps1" />
-    <Compile Include="obj\jsharp.ps1" />
-    <Compile Include="obj\vc2005.ps1" />
-    <Compile Include="obj\vc2008.ps1" />
-    <Compile Include="obj\vc2010.ps1" />
-    <Compile Include="obj\vc2012.ps1" />
-    <Compile Include="obj\vc2013.ps1" />
-    <Compile Include="obj\vc2015.ps1" />
-    <Compile Include="obj\vstor2010.ps1" />
-    <Compile Include="obj\windowsconfig.ps1" />
     <Compile Include="README.md" />
-    <Compile Include="Script.ps1" />
-    <Compile Include="Windows Setup.bat" />
+    <Compile Include="workstationmanager.ps1" />
     <Compile Include="_config.yml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
