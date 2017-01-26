@@ -360,7 +360,7 @@ function ExtraRedist-WM{
 #Checks if PowerShell is running as an administrator, and relaunches the script if not
 If (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))
 {   
-$arguments = "& '" + $myinvocation.mycommand.definition + "'"
+$arguments = "& '" + $myinvocation.mycommand.definition + "' -ExecutionPolicy Bypass"
 Start-Process powershell -Verb runAs -ArgumentList $arguments
 Break
 }
