@@ -16,16 +16,16 @@ $ErrorActionPreference = "SilentlyContinue"
 #----------------------------------------------------------[Declarations]----------------------------------------------------------
 #Script Version
 $sScriptVersion = "1.0"
-#Working Folder
-$sDestDir = "C:\ClientShare"
 #Get current date
 $sStartTime = Get-Date
 $sScriptRoot = ($MyInvocation.MyCommand.Path | Split-Path | Resolve-Path).ProviderPath
+#Working Folder
+$sDestDir = "$sScriptRoot\wksmgr"
 #-----------------------------------------------------------[Functions]------------------------------------------------------------
 function PreInstall-WM{
 	Write-Output "Initializing WorkstationManager Powershell scripts."
 	If (!(Test-Path $sDestDir\workstationmanager.ps1)) {
-		Write-Output "WorkstationManager is not installed! Installing files now."
+		Write-Output "WorkstationManager is not setup! Creating folders now."
 		Install-WM
 	}
 	else {
