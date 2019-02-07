@@ -27,6 +27,7 @@ function PreInstall-WM{
 	If (!(Test-Path $sDestDir\workstationmanager.ps1)) {
 		Write-Output "WorkstationManager is not setup! Creating folders now."
 		Install-WM
+		MainMenu-WM
 	}
 	else {
 		MainMenu-WM
@@ -39,9 +40,7 @@ function Install-WM{
 	New-Item -Path $sDestDir\bin\x64 -ItemType Directory
 	New-Item -Path $sDestDir\bin\x86 -ItemType Directory
 	New-Item -Path $sDestDir\script -ItemType Directory
-	Copy-Item -Path $sScriptRoot\workstationmanager.ps1 -Destination $sDestDir\
 	Write-Output "The program has installed to the directory located at $sDestDir\"
-	Write-Output "Please run WorkstationManager from this directory from now on."
 	pause
 }
 
