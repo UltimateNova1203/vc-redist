@@ -1,7 +1,7 @@
 # Visual Redist
-Downloads and installs various runtimes for Windows deployment. All installers were initially pulled from Microsoft's Servers. Additional architectures and versions are available on the repo, but are not installed from the script.
+Downloads and installs Visual C++ redistributables for Windows. All installers were initially pulled from Microsoft's Servers, and archived here, as some were delisted.
 
-Below is what the script will install.
+Below is what the script will install, depending on your OS Architecture.
 
   * Visual C++ 2005 8.0.61000 (x86, x64)
   * Visual C++ 2008 9.0.30729.6161 (x86, x64, IA64)
@@ -11,7 +11,7 @@ Below is what the script will install.
   * Visual C++ 2015-2019 14.29.30133 (x86, x64, ARM64)
 
 # Installation
-Administrative rights is required to run the script, as it is currently not signed.
+Administrative rights is required to run the script, as it is currently not signed. The Execution Policy will only apply to the current PowerShell process, and will revert to your original setup after the window is closed.
 
 In a PowerShell Admin prompt, run the below commands.
 ```
