@@ -17,6 +17,6 @@ Administrative rights is required to install, as we need to enable .NET Framewor
 In a PowerShell Admin prompt, run the below commands.
 ```
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
-$VisualRedistScript = Invoke-WebRequest https://raw.githubusercontent.com/UltimateNova1203/visual-redist/master/visual-redist.ps1
+$VisualRedistScript = Invoke-WebRequest https://raw.githubusercontent.com/UltimateNova1203/visual-redist/master/visual-redist.ps1 -UseBasicParsing
 Invoke-Expression $($VisualRedistScript.Content)
 ```
