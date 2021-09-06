@@ -10,6 +10,11 @@ Below is what the script will install, depending on your OS Architecture.
   * Visual C++ 2013 12.0.40664 / Version 5 (x86, x64, ARM64)
   * Visual C++ 2015-2019 14.29.30133 (x86, x64, ARM64)
 
+Runtimes for the below are also available in the repository, though are not installed via the script.
+
+  * Visual J# 2.0 Second Edition (x86, x64)
+  * Visual F# 2.0 (x86)
+
 # Installation
 Administrative rights is required to run the script, as it is currently not signed. The Execution Policy will only apply to the current PowerShell process, and will revert to your original setup after the window is closed.
 
