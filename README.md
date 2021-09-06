@@ -14,11 +14,12 @@ Runtimes for the below are also available in the repository, though are not inst
 
   * DirectX 1.0 4.2.0.95
   * DirectX 2.0a 4.3.0.1096
-  * DirectX 3.0a 4.4.0.68
+  * DirectX 3.0 4.4.0.68
   * DirectX 5.0 4.5.0.155
   * DirectX 6.1 4.6.2.436
-  * DirectX 7.0a 4.7.0.700
-  * DirectX 8.1b 4.8.1.881
+  * DirectX 7.0 4.7.0.700
+  * DirectX 8.1b 4.08.01.0901
+  * DirectX 8.2 4.08.02.0134
   * DirectX 9.0c 4.9.0.904
   * Visual C++ 2015 14.0.24212 (x86, x64)
   * Visual C++ 2017 14.16.27033 (x86, x64, ARM64)
