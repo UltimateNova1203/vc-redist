@@ -13,7 +13,7 @@ Below is what the script will install, depending on your OS Architecture.
 Runtimes for the below are also available in the repository, though are not installed via the script.
 
   * DirectX 1.0 4.2.0.95
-  * DirectX 2.0 4.3.0.1096
+  * DirectX 2.0a 4.3.0.1096
   * DirectX 3.0a 4.4.0.68
   * DirectX 5.0 4.5.0.155
   * DirectX 6.1 4.6.2.436
