@@ -18,6 +18,7 @@ Runtimes for the below are also available in the repository, though are not inst
   * DirectX 5.0 4.05.00.0155
   * DirectX 6.1 4.06.02.0436
   * DirectX 7.0 4.07.00.0700
+  * DirectX 8.1 4.08.01.0881
   * DirectX 8.1b 4.08.01.0901
   * DirectX 8.2 4.08.02.0134
   * DirectX 9.0c 4.09.00.0904
