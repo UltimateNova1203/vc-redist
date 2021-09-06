@@ -3,7 +3,7 @@
 .SYNOPSIS
   This script installs Visual C++ redistributables.
 .NOTES
-  Version:        2.1a
+  Version:        2.1b
   Author:         UltimateNova1203
   Creation Date:  2016/01/24
   Updated Date:   2021/09/05
@@ -134,6 +134,13 @@ if ($OSArch -eq "ARM64") {
 }
 
 if ($OSArch -eq "IA64") {
+	#VC2005-IA64
+	Write-Output "Downloading Visual C++ 2005 IA64 Redistributable..."
+	Invoke-WebRequest -Uri "https://raw.githubusercontent.com/UltimateNova1203/visual-redist/master/vc/vc2005-ia64.exe" -OutFile C:\visual-redist\vc2005-ia64.exe
+	Write-Output "Installing Visual C++ 2005 IA64 Redistributable..."
+	Start-Process C:\visual-redist\vc2005-ia64.exe -ArgumentList "/q" -wait
+	Write-Output "Visual C++ 2005 IA64 Redistributable Installed!"
+
 	#VC2008-IA64
 	Write-Output "Downloading Visual C++ 2008 IA64 Redistributable..."
 	Invoke-WebRequest -Uri "https://raw.githubusercontent.com/UltimateNova1203/visual-redist/master/vc/vc2008-ia64.exe" -OutFile C:\visual-redist\vc2008-ia64.exe
