@@ -12,7 +12,7 @@ Below is what the script will install.
   * Visual C++ 2015-2019 14.29.30133 (x86 & x64)
 
 # Installation
-Administrative rights is required to install, as we need to enable both .NET Framework 3.5, as well as install software.
+Administrative rights is required to install, as we need to enable .NET Framework 3.5, as well as install software.
 
 In a PowerShell Admin prompt, run the below commands.
 ```
