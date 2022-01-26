@@ -1,4 +1,3 @@
-﻿#requires -version 2
 <#
 .SYNOPSIS
   This script installs Visual C++ redistributables.
