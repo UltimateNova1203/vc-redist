@@ -30,7 +30,7 @@ Runtimes for the below are also available in the repository, though are not inst
 # Installation
 Administrative rights is required to run the script, as it is currently not signed. The Execution Policy will only apply to the current PowerShell process, and will revert to your original setup after the window is closed.
 
-In a PowerShell Admin prompt, run the below commands.
+In a PowerShell Administrative prompt, run the below commands.
 ```
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
 $VisualRedistScript = Invoke-WebRequest https://raw.githubusercontent.com/UltimateNova1203/visual-redist/master/visual-redist.ps1 -UseBasicParsing
